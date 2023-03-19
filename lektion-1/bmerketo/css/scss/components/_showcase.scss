@@ -1,0 +1,66 @@
+.showcase {
+    background-color: $color-theme-3;
+    padding: 60px 0;
+
+    @include lg {
+        padding: 0px 0 60px 0;
+    }
+
+    .container {
+        display: block;
+        text-align: center;
+
+        @include lg {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .content {
+        font-family: $font-poppins;
+        color: $color-dark-2;
+
+        @include lg {
+            flex: 2;
+            text-align: left;
+            padding-right: 20px;
+        }
+
+        @include xl {
+            flex: 1;
+            padding-right: 100px;
+        }
+
+        .ingress {
+            font-size: 18px;
+            font-weight: $font-weight-regular;
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 40px;
+            font-weight: $font-weight-bold;
+            line-height: 1.2;
+            margin-bottom: 20px;
+
+            @include lg {
+                font-size: 60px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .content-image {
+        display: none;
+
+        @include lg {
+            flex: 1;
+            display: block;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

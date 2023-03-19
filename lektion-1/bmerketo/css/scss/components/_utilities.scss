@@ -1,0 +1,44 @@
+html, body {
+    font-size: 16px;
+    font-family: $font-roboto;
+    font-weight: $font-weight-regular;
+    color: $color-dark-3;
+}
+
+a {
+    text-decoration: none;
+    color: $color-theme-1;
+
+    &:hover {
+        text-decoration: underline;
+        color: $color-theme-1;
+    }
+}
+
+button {
+    padding: 10px 35px;
+    font-family: $font-poppins;
+    border: 1px solid $color-dark-1;
+    background-color: transparent;
+    color: $color-dark-1;
+    transition: all 0.2s;
+    
+
+    &:hover {
+        background-color: $color-dark-1;
+        color: $color-white;
+    }
+}
+
+.btn-white {
+    border: none;
+    background-color: $color-white;
+    color: $color-dark-2;
+    border : 1px solid $color-dark-2;
+}
+
+.btn-theme {
+    border: none;
+    background-color: $color-theme-1;
+    color: $color-white;
+}
