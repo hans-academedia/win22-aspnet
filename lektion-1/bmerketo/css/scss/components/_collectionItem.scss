@@ -1,0 +1,58 @@
+.collection-item {
+    background-color: $color-white;
+    text-decoration: none;
+    display: block;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .body {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        color: $color-dark-2;
+        margin-top: 10px;
+        font-family: $font-poppins;
+        padding: 0 10px 10px 10px;
+
+        .info {
+            padding: 2px;
+
+            .title {
+                font-size: 18px;
+                font-weight: $font-weight-medium;
+            }
+            .price {
+                font-size: 16px;
+            }
+        }
+
+        .tocart {
+            padding: 2px;
+            font-size: 24px;
+            color: $color-dark-2;
+
+            &:hover {
+                color: $color-dark-4;
+            }
+        }
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    @include xl {
+        .tocart {
+            display: none;
+        }
+
+        &:hover {
+            .tocart {
+                display: block;
+            }
+        }
+    }
+}

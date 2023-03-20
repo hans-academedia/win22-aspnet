@@ -1,0 +1,62 @@
+.up-to-sell {
+    background-color: $color-theme-2;
+    padding: 40px 0;
+  
+    .collection-grid {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+
+        @include md {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include lg {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .collection-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .container {
+                text-align: center;
+                padding: 40px;
+            }
+
+            .title-red {
+                font-family: $font-poppins;
+                color: $color-theme-1;
+                font-size: 18px;
+                font-weight: $font-weight-bold;
+            }
+            .title {
+                font-family: $font-playfair;
+                font-weight: $font-weight-bold;
+                font-size: 48px;
+                color: $color-dark-2;
+            }
+            .ingress {
+                font-family: $font-poppins;
+                color: $color-dark-2;
+                font-size: 24px;
+                font-weight: $font-weight-bold;
+            }
+            .text {
+                margin-top: 20px;
+                font-family: $font-roboto;
+                color: $color-dark-3;
+                font-size: 16px;
+                font-weight: $font-weight-regular;
+            }
+            .link {
+                display: block;
+                margin-top: 30px;
+                color: $color-dark-2;
+            }
+        }
+
+    }
+}
+
