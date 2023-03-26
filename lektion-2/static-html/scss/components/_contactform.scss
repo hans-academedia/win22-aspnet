@@ -1,0 +1,64 @@
+.contact-form {
+    padding: 20px 0 60px 0;
+
+    @include lg {
+        padding: 60px 0;
+    }
+
+    .container {
+        border: 0px solid $color-dark-5;
+        padding: 30px;
+
+        @include md {
+            border: 1px solid $color-dark-5;
+        }
+    }
+
+    .title {
+        margin-bottom: 40px;
+    }
+
+    form {
+        display: grid;
+        column-gap: 30px;
+        row-gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-areas:    "name"
+                                "email"
+                                "phoneNumber"
+                                "companyName"
+                                "message"
+                                "terms"
+                                "button";
+        
+        @include lg {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:    "name email"
+                                    "phoneNumber companyName"
+                                    "message message"
+                                    "terms terms"
+                                    "button button";
+        }
+
+        .name           { grid-area: name; }
+        .email          { grid-area: email; }
+        .phoneNumber    { grid-area: phoneNumber; }
+        .companyName    { grid-area: companyName;}
+        .terms          { grid-area: terms;  margin: 10px 0; }
+        .message        { grid-area: message; }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        button {
+            grid-area: button;
+
+            @include lg {
+                display: flex;
+                justify-self: flex-start;
+            }
+        }
+    }
+}

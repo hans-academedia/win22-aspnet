@@ -1,0 +1,59 @@
+.best-collection {
+    padding: 40px 20px;
+
+    .collection-title {
+        text-align: center;
+        font-family: $font-poppins;
+        font-weight: $font-weight-semibold;
+        font-size: 38px;
+        color: $color-dark-2;
+
+        @include md {
+            font-size: 48px;
+        }
+    }
+    
+    .categories {
+        display: none;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        @include lg {
+            display: flex;
+        }
+
+        .category-item {
+            margin-right: 5px;
+
+            & + li::before {
+                content: "/";
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .collection-grid {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+
+        @include md {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include lg {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include xl {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+    }
+
+    .load-more {
+        margin-top: 40px;
+        text-align: center;
+    }
+}

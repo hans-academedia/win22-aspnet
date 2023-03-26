@@ -1,0 +1,39 @@
+.breadcrumb {
+    height: 200px;
+    background-color: $color-dark-5;
+
+    @include md {
+        height: 300px;
+    }
+
+    .container {
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-family: $font-poppins;
+        font-weight: $font-weight-bold;
+        color: $color-dark-2;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: $font-weight-regular;
+        font-family: $font-poppins;
+
+        li {
+            padding: 0;
+            margin: 0 10px 0 0;
+        }
+    }
+}

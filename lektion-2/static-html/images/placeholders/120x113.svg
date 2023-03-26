@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="113" viewBox="0 0 120 113">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 120 113">
+      <image width="120" height="113" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABxBAMAAADsRXopAAAAG1BMVEXMzMyWlpaxsbG3t7ecnJy+vr6qqqrFxcWjo6N3CtnhAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA8UlEQVRYhe3SvW7CMBQF4IMDuKMTKZgRKGLm7wGAhrASlAcoUtW5SNC56tDn7nWE6chdGCqdL1KSa+nIlu8FiIiIiIiIHsrBFAMkxTSWaAHd4lWTNQ7jeYZqlMcSQ2D8XCqyydrhBUu8y3Mtlymapfs6E2c9KuSojbcbKXE4AjvUmmNbh71s43FCaVahlD9Z/lGGYUt5tz5ms+ktfPTacP3VhJ/6uIUv2p2THppjJ9lfGGdluJIWb+WG2kUMd1xotir8LZ/QquFpcA3bXH3b2WIRhsRmxsdjv803urBN0zSMZ3eFMoY/ZWKJiIiIiOi/+AVdXR2yfkM7rwAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <rect id="Add_your_image_here" data-name="Add your image here" width="120" height="113" fill="url(#pattern)"/>
+</svg>
