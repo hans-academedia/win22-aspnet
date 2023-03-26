@@ -1,0 +1,39 @@
+﻿<section class="contact-form">
+    <div class="container">
+        <div class="title">Write something</div>
+
+        <form novalidate>
+            <div class="name form-group">
+                <label for="name">Your Name*</label>
+                <input id="name" type="text" class="invalid" required>
+                <span class="error">Your name is required</span>
+            </div>
+            <div class="email form-group">
+                <label for="email">Your Email*</label>
+                <input id="email" type="text" class="invalid">
+                <span class="error">Your email is required</span>
+            </div>
+            <div class="phoneNumber form-group">
+                <label for="phone">Phone Number (optional)</label>
+                <input id="phone" type="text">
+            </div>
+            <div class="companyName form-group">
+                <label for="company">Company (optional)</label>
+                <input id="company" type="text">
+            </div>
+            <div class="message form-group">
+                <label for="message">Message*</label>
+                <textarea id="message" class="invalid"></textarea>
+                <span class="error">Message is required</span>
+            </div>
+            <div class="terms form-checkbox-group">
+                <label class="custom-checkbox">
+                    Save my name, email in the this browser for the next time I comment.
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <button class="btn-theme">Submit</button>
+        </form>
+    </div>
+</section>
