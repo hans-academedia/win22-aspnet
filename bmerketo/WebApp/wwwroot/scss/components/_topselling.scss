@@ -1,0 +1,42 @@
+.top-selling {
+    padding: 40px 20px;
+
+    .collection-title {
+        text-align: center;
+        font-family: $font-poppins;
+        font-weight: $font-weight-semibold;
+        font-size: 30px;
+        color: $color-dark-2;
+    }
+
+    .collection-grid {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+
+        @include md {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include lg {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include xl {
+            grid-template-columns: repeat(7, 1fr);
+        }
+
+        .collection-item {
+            .body {
+                .title {
+                    font-size: 14px;
+                    font-weight: $font-weight-medium;
+                }
+            }
+        }
+    }
+
+    .load-more {
+        margin-top: 40px;
+        text-align: center;
+    }
+}

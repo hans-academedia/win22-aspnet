@@ -1,0 +1,12 @@
+footer {
+    font-family: $font-poppins;
+    padding: 30px;
+    background-color: $color-dark-2;
+    color: $color-dark-4;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

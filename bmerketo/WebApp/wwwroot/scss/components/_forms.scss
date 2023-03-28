@@ -1,0 +1,86 @@
+textarea,
+input,
+input:not([type="checkbox"]) {
+    border: 1px solid $color-dark-5;
+    background-color: $color-theme-4;
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 10px 15px;
+    outline: 0;
+
+    &:focus {
+        border: 1px solid $color-dark-4;
+    }
+}
+
+.invalid {
+    border: 1px solid $color-theme-1 !important;
+} 
+
+.custom-checkbox {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    user-select: none;
+
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        border: 1px solid $color-dark-5;
+
+        &:checked + .checkmark {
+            height: 25px;
+            width: 25px;
+            background-color: $color-theme-4;
+            border: 1px solid $color-dark-4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            &::after {
+                content: '';
+                height: 15px;
+                width: 15px;
+                background-color: $color-dark-3;
+            }
+        }
+
+    }
+
+    .checkmark {
+      position: absolute; 
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: $color-theme-4;
+      border: 1px solid $color-dark-5;
+      z-index: -1;
+    }
+}
+
+.form-group {
+    width: 100%;
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    span {
+        display: inline-block;
+        color: $color-theme-1;
+        height: 20px;
+        margin-top: 2px;
+        font-size: 0.8em;
+    }
+}
+
+.form-checkbox-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}

@@ -1,0 +1,86 @@
+.btn-toggle {
+    cursor: pointer;
+    font-family: $font-poppins;
+    font-size: 1.8em;
+    padding: 0 !important;
+    background-color: transparent;
+    border: none !important;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-dark-1 !important;
+        background-color: transparent !important;
+    }
+}
+.btn-toggle-white {
+    cursor: pointer;
+    font-family: $font-poppins;
+    font-size: 1.8em;
+    padding: 0 !important;
+    background-color: transparent;
+    border: none !important;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-dark-3 !important;
+        background-color: transparent !important;
+    }
+}
+
+.btn-outline-white {
+    cursor: pointer;
+    font-family: $font-poppins;
+    padding: 10px 25px;
+    border: 1px solid $color-dark-3;
+    background-color: $color-white;
+    color: $color-dark-3;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+        border: 1px solid $color-dark-2;
+        background-color: $color-dark-2;
+        color: $color-white;
+    }
+}
+
+.btn-outline-dark {
+    cursor: pointer;
+    font-family: $font-poppins;
+    padding: 10px 25px;
+    border: 0px solid $color-white;
+    background-color: transparent;
+    color: $color-white;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+        border: 0px solid $color-dark-2;
+        background-color: transparent;
+        color: $color-white;
+    }
+}
+
+.btn-theme {
+    cursor: pointer;
+    font-family: $font-poppins;
+    padding: 10px 35px;
+    border: 1px solid $color-theme-1;
+    background-color: $color-theme-1;
+    color: $color-white;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+        border: 1px solid $color-dark-2;
+        background-color: $color-dark-2;
+        color: $color-white;
+    }
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+.btn-rounded-1 {
+    border-radius: 10px;
+}
