@@ -1,0 +1,12 @@
+C:\Users\hans\source\repos\Merketo\SharedLibrary\bin\Debug\net7.0\SharedLibrary.deps.json
+C:\Users\hans\source\repos\Merketo\SharedLibrary\bin\Debug\net7.0\SharedLibrary.dll
+C:\Users\hans\source\repos\Merketo\SharedLibrary\bin\Debug\net7.0\SharedLibrary.pdb
+C:\Users\hans\source\repos\Merketo\SharedLibrary\obj\Debug\net7.0\SharedLibrary.csproj.AssemblyReference.cache
+C:\Users\hans\source\repos\Merketo\SharedLibrary\obj\Debug\net7.0\SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hans\source\repos\Merketo\SharedLibrary\obj\Debug\net7.0\SharedLibrary.AssemblyInfoInputs.cache
+C:\Users\hans\source\repos\Merketo\SharedLibrary\obj\Debug\net7.0\SharedLibrary.AssemblyInfo.cs
+C:\Users\hans\source\repos\Merketo\SharedLibrary\obj\Debug\net7.0\SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Users\hans\source\repos\Merketo\SharedLibrary\obj\Debug\net7.0\SharedLibrary.dll
+C:\Users\hans\source\repos\Merketo\SharedLibrary\obj\Debug\net7.0\refint\SharedLibrary.dll
+C:\Users\hans\source\repos\Merketo\SharedLibrary\obj\Debug\net7.0\SharedLibrary.pdb
+C:\Users\hans\source\repos\Merketo\SharedLibrary\obj\Debug\net7.0\ref\SharedLibrary.dll

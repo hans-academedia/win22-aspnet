@@ -1,0 +1,31 @@
+﻿@model UserSignInViewModel
+@{
+    ViewData["Title"] = "Sign In to your Account";
+}
+
+<div class="d-flex justify-content-between">
+
+    <h1 class="display-4">Sign In to <br />your Account</h1>
+
+    <form method="post" class="col-10 col-xl-6" novalidate>
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" autocomplete="off" />
+            <small class="text-danger"><span asp-validation-for="Email"></span></small>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label">Password</label>
+            <input asp-for="Password" class="form-control" autocomplete="off" />
+            <small class="text-danger"><span asp-validation-for="Password"></span></small>
+        </div>
+
+        <div class="mt-5">
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success">SIGN IN NOW</button>
+            </div>
+        </div>
+    </form>
+</div>
