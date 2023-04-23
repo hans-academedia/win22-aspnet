@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sO6YkPFdkCG3t3i5RjezkzMHhTCbgvW4MxlJRXxDGufgLNTrBmmQLwHl7PviLpp8nPtkbjhbaEKsvJA84KPBWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hans\\OneDrive - EPN Sverige AB\\Documents\\Utbildning\\Education\\WIN22\\win22-aspnet\\lektion-8\\Auth_Google\\Auth_Google.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\7.0.5\\microsoft.aspnetcore.authentication.facebook.7.0.5.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.5\\microsoft.aspnetcore.authentication.google.7.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,29 @@
+﻿@model ProductAddViewModel
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Form.Name">Product Name</label>
+        <input asp-for="Form.Name" class="form-control" />
+        <span asp-validation-for="Form.Name"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Form.Price">Product Price</label>
+        <input asp-for="Form.Price" class="form-control" />
+        <span asp-validation-for="Form.Price"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Form.Description">Product Description</label>
+        <input asp-for="Form.Description" class="form-control" />
+        <span asp-validation-for="Form.Description"></span>
+    </div>
+    <div class="mb-3">
+        <select asp-for="Form.Category">
+            @foreach(var category in await productCategoryManager.GetCategoriesAsync())
+            {
+                <option value="@category.Value">@category.Name</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">ADD PRODUCT</button>
+</form>
