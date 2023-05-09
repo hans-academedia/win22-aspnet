@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = WebApp
+build_property.RootNamespace = WebApp
+build_property.ProjectDir = C:\Users\hans\OneDrive - EPN Sverige AB\Documents\Utbildning\Education\WIN22\win22-aspnet\lektion-12\WebApp\WebApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\hans\OneDrive - EPN Sverige AB\Documents\Utbildning\Education\WIN22\win22-aspnet\lektion-12\WebApp\WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/hans/OneDrive - EPN Sverige AB/Documents/Utbildning/Education/WIN22/win22-aspnet/lektion-12/WebApp/WebApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hans/OneDrive - EPN Sverige AB/Documents/Utbildning/Education/WIN22/win22-aspnet/lektion-12/WebApp/WebApp/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hans/OneDrive - EPN Sverige AB/Documents/Utbildning/Education/WIN22/win22-aspnet/lektion-12/WebApp/WebApp/Pages/Contacts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hans/OneDrive - EPN Sverige AB/Documents/Utbildning/Education/WIN22/win22-aspnet/lektion-12/WebApp/WebApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hans/OneDrive - EPN Sverige AB/Documents/Utbildning/Education/WIN22/win22-aspnet/lektion-12/WebApp/WebApp/Pages/Products.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hans/OneDrive - EPN Sverige AB/Documents/Utbildning/Education/WIN22/win22-aspnet/lektion-12/WebApp/WebApp/Shared/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hans/OneDrive - EPN Sverige AB/Documents/Utbildning/Education/WIN22/win22-aspnet/lektion-12/WebApp/WebApp/Shared/ItemCollection.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEl0ZW1Db2xsZWN0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hans/OneDrive - EPN Sverige AB/Documents/Utbildning/Education/WIN22/win22-aspnet/lektion-12/WebApp/WebApp/Shared/Showcase.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3djYXNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hans/OneDrive - EPN Sverige AB/Documents/Utbildning/Education/WIN22/win22-aspnet/lektion-12/WebApp/WebApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

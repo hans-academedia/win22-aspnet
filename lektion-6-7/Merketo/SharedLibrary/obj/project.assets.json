@@ -1639,11 +1639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hans\\source\\repos\\Merketo\\SharedLibrary\\SharedLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\hans\\OneDrive - EPN Sverige AB\\Documents\\Utbildning\\Education\\WIN22\\win22-aspnet\\lektion-6-7\\Merketo\\SharedLibrary\\SharedLibrary.csproj",
       "projectName": "SharedLibrary",
-      "projectPath": "C:\\Users\\hans\\source\\repos\\Merketo\\SharedLibrary\\SharedLibrary.csproj",
+      "projectPath": "C:\\Users\\hans\\OneDrive - EPN Sverige AB\\Documents\\Utbildning\\Education\\WIN22\\win22-aspnet\\lektion-6-7\\Merketo\\SharedLibrary\\SharedLibrary.csproj",
       "packagesPath": "C:\\Users\\hans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hans\\source\\repos\\Merketo\\SharedLibrary\\obj\\",
+      "outputPath": "C:\\Users\\hans\\OneDrive - EPN Sverige AB\\Documents\\Utbildning\\Education\\WIN22\\win22-aspnet\\lektion-6-7\\Merketo\\SharedLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,63 @@
+﻿@model ProductRegistrationViewModel
+@{
+    ViewData["Title"] = "Product Registration";
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    
+    <form method="post" enctype="multipart/form-data" class="col-5">
+
+        <div class="d-flex align-items-center mb-5">
+            <a asp-action="Index" asp-controller="Products" class="text-muted"><i class="display-6 fa-light fa-circle-chevron-left me-3"></i></a>
+            <h1 class="display-6">@ViewData["Title"]</h1>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ArticleNumber" class="form-label"></label>
+            <input asp-for="ArticleNumber" class="form-control" />
+            <span asp-validation-for="ArticleNumber" class="small text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ProductName" class="form-label"></label>
+            <input asp-for="ProductName" class="form-control" />
+            <span asp-validation-for="ProductName" class="small text-danger"></span>
+        </div>
+
+        <div class="row">
+            <div class="mb-3 col-6">
+                <label asp-for="ProductPrice" class="form-label"></label>
+                <input asp-for="ProductPrice" class="form-control" />
+                <span asp-validation-for="ProductPrice" class="small text-danger"></span>
+            </div>
+            <div class="mb-3 col-6">
+                <label class="form-label">Product Category</label>
+                <select asp-for="ProductCategoryId" asp-items="Model.ProductCategoryOptions" class="form-select"></select>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="TagList" class="form-label"></label>
+            <input asp-for="TagList" class="form-control" />
+            <span asp-validation-for="TagList" class="small text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ProductDescription" class="form-label"></label>
+            <textarea asp-for="ProductDescription" class="form-control" rows="5"></textarea>
+            <span asp-validation-for="ProductDescription" class="small text-danger"></span>
+        </div>
+
+        <div class="my-4">
+            <label asp-for="ProductImageUpload" class="form-label"></label>
+            <input asp-for="ProductImageUpload" class="form-control" />
+            <span asp-validation-for="ProductImageUpload" class="small text-danger"></span>
+        </div>
+
+        <div class="d-grid pt-5">
+            <button class="btn btn-success py-2">SUBMIT</button>
+        </div>
+
+    </form>
+
+</div>

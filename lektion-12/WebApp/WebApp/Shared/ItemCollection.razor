@@ -1,0 +1,54 @@
+﻿
+<section class="item-collection">
+    <div class="container">
+        <h1 class="collection-title">@Title</h1>
+        <ul class="categories">
+            @if(Categories != null)
+            {
+                foreach(var category in Categories)
+                {
+                    <li class="category-item">@category.CategoryName</li>
+                }
+            }
+        </ul>
+        <div class="collection-grid">
+
+            @if(Items != null)
+            {
+                foreach(var item in Items)
+                {
+                    var link = $"products/{item.ItemId}";
+
+                    <!-- collection-item start -->
+                    <NavLink href="@link" class="collection-item">
+                        <img src="@item.ImageUrl" alt="@item.Title">
+                        <div class="body">
+                            <div class="title">@item.Title</div>
+                            <div class="info">
+                                <div class="price">$item.Price</div>
+                                <i class="add-cart fa-regular fa-cart-plus"></i>
+                            </div>
+                        </div>
+                    </NavLink>
+                    <!-- collection-item end -->
+                }
+            }
+
+        </div>
+        <div class="load-more">
+            <button class="btn-outline-white">LOAD MORE <i class="fa-solid fa-rotate-right"></i></button>
+        </div>
+    </div>
+</section>
+
+@code {
+    [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
+    public List<Category>? Categories { get; set; }
+
+    [Parameter]
+    public List<CollectionItem>? Items { get; set; }
+
+}

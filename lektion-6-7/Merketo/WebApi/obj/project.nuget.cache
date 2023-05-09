@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFBqu3wQ2lX/VqolcL8UtUGKscs7xYA3OYuTFGjomWBovFA0nysVvCXTGyAwgtJQJz7rQXDjyMLbKJ98Rr7oww==",
+  "dgSpecHash": "wo61erKxZ93IQ3RmMcKn91KGiRceksXSwMHUpKpQY3t4boBfh0wIy8fzaweybGZZsJb6NEtVGdOCvwqMFqyviQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hans\\source\\repos\\Merketo\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\hans\\OneDrive - EPN Sverige AB\\Documents\\Utbildning\\Education\\WIN22\\win22-aspnet\\lektion-6-7\\Merketo\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hans\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.5\\microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",
     "C:\\Users\\hans\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.5\\microsoft.aspnetcore.cryptography.keyderivation.7.0.5.nupkg.sha512",

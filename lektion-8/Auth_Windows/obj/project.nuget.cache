@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "CKzjUlhtF4FbVVkeoO5T3q72ybKgFDa0snjnrgzf7KQZltSTj9vwV3ndjjPPzY81TSK3wYaBSM0IRqUcNhgjvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hans\\OneDrive - EPN Sverige AB\\Documents\\Utbildning\\Education\\WIN22\\win22-aspnet\\lektion-8\\Auth_Windows\\Auth_Windows.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\7.0.5\\microsoft.aspnetcore.authentication.negotiate.7.0.5.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.5\\microsoft.aspnetcore.connections.abstractions.7.0.5.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.extensions.features\\7.0.5\\microsoft.extensions.features.7.0.5.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\system.directoryservices.protocols\\7.0.0\\system.directoryservices.protocols.7.0.0.nupkg.sha512",
+    "C:\\Users\\hans\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,26 @@
+﻿<section class="showcase">
+    <div class="container">
+        <div class="content">
+            <div class="ingress">@Ingress</div>
+            <div class="title">@Title</div>
+            <button class="btn-theme">@ButtonText</button>
+        </div>
+        <div class="content-image">
+            <img src="@ImageUrl" alt="@Title">
+        </div>
+    </div>
+</section>
+
+@code {
+    [Parameter]
+    public string? Ingress { get; set; }
+
+    [Parameter]
+    public string? Title { get; set; }
+
+    [Parameter]
+    public string? ButtonText { get; set; }
+
+    [Parameter]
+    public string? ImageUrl { get; set; }
+}

@@ -1,0 +1,37 @@
+.display-6 {
+    font-size: 1.6em;
+    margin-bottom: 0.5rem;
+}
+
+.badge {
+    font-weight: 400;
+    font-size: 0.8em;
+    padding: 0.5em 0.9em;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#productImage {
+    flex: 0.2;
+    height: auto;
+    width: 200px;
+}
+
+#productInfo {
+    flex: 1;
+}
+
+#productAction {
+    flex: 0.3;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+}
+
+#productPrice {
+    margin: 0;
+}

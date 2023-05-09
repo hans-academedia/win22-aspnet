@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<Showcase Ingress="WELCOME TO BMERKETO SHOP"
+          Title="Exclusive Chair gold Collection."
+          ButtonText="SHOP NOW"
+          ImageUrl="images/placeholders/625x647.svg" />
+
+<ItemCollection Title="Best Collection" Categories="@categories" Items="@items" />
+
+@code {
+    private List<Category>? categories;
+    private List<CollectionItem>? items;
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await http.GetFromJsonAsync<List<Category>>("https://localhost:7233/api/categories");
+        var products = await http.GetFromJsonAsync<List<Product>>("https://localhost:7233/api/products");
+
+        if (products != null)
+        {
+            items = new();
+
+            foreach(var product in products)
+                items!.Add(product);
+
+        }
+    }
+}
